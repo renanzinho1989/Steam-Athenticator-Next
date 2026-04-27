@@ -1636,6 +1636,33 @@ public class MainWindow : Window, IComponentConnector, IStyleConnector
 			AccountsSearchTextBox.Tag = text6;
 			AccountsSearchTextBox.ToolTip = text6;
 		}
+		ApplySidebarReadabilityTweaks();
+	}
+
+	private void ApplySidebarReadabilityTweaks()
+	{
+		foreach (DependencyObject item in EnumerateVisualTree(this))
+		{
+			if (item is System.Windows.Controls.Image image)
+			{
+				string text = image.Source?.ToString()?.ToLowerInvariant() ?? string.Empty;
+				if (text.Contains("rexpeita-avatar") || text.Contains("rexpeita-skull"))
+				{
+					image.Width = Math.Max(GetFiniteOrZero(image.Width), 90.0);
+					image.Height = Math.Max(GetFiniteOrZero(image.Height), 90.0);
+					image.Stretch = Stretch.Uniform;
+				}
+			}
+		}
+	}
+
+	private static double GetFiniteOrZero(double value)
+	{
+		if (!double.IsNaN(value) && !double.IsInfinity(value))
+		{
+			return value;
+		}
+		return 0.0;
 	}
 
 	private static string TranslateStaticUiText(string text, bool toEnglish)

@@ -1,28 +1,65 @@
 Steam Desktop Authenticator Next
-Proprietary Software License
+Licenca Publica de Uso (Nao Comercial) / Public Use License (Non-Commercial)
 
-Copyright (c) 2026 Renanzinho. All rights reserved.
+Copyright (c) 2026 Renanzinho (renanzinho1989).
+Todos os direitos reservados / All rights reserved.
 
-1. Grant of Use
-You are allowed to use the compiled application for personal or internal use.
+PT-BR (texto principal)
+1) Uso permitido
+- Qualquer pessoa pode usar o aplicativo compilado gratuitamente.
+- E permitido compartilhar a versao compilada original e sem alteracoes, desde que seja gratis.
 
-2. Source Code Restrictions
-You are NOT allowed to:
-- copy the source code;
-- redistribute the source code;
-- publish the source code;
-- modify the source code;
-- create derivative works from the source code.
+2) Uso comercial proibido
+Sem autorizacao previa e por escrito do titular dos direitos, e proibido:
+- vender este software;
+- alugar, licenciar, sublicenciar ou monetizar este software;
+- incluir este software em pacotes, servicos ou assinaturas pagas;
+- usar este software para gerar lucro direto ou indireto.
 
-3. Binary Redistribution
-Redistribution of compiled binaries is not allowed without prior written permission from the copyright owner.
+3) Propriedade do codigo-fonte
+- O software e o codigo-fonte pertencem exclusivamente ao autor.
+- Nao e permitido copiar, publicar, redistribuir, modificar, fazer engenharia reversa ou criar trabalhos derivados do codigo-fonte sem autorizacao previa e por escrito.
 
-4. Ownership
-All rights, title, and interest in this software remain with the copyright owner.
+4) Creditos e autoria
+- Nao e permitido remover ou alterar avisos de copyright.
+- Nao e permitido reivindicar autoria deste software.
 
-5. No Warranty
-This software is provided "as is", without warranty of any kind, express or implied.
-The author is not liable for any damages, losses, account restrictions, or security incidents resulting from use of this software.
+5) Rescisao
+Qualquer violacao desta licenca encerra imediatamente o direito de uso.
 
-6. Acceptance
-By using this software, you agree to the terms of this license.
+6) Sem garantia
+Este software e fornecido "como esta", sem garantias expressas ou implicitas.
+O autor nao se responsabiliza por danos, perdas, restricoes de conta, banimentos ou incidentes de seguranca decorrentes do uso do software.
+
+7) Aceitacao
+Ao usar, copiar ou distribuir este software, voce concorda com esta licenca.
+
+English (reference translation)
+1) Allowed use
+- Anyone may use the compiled application free of charge.
+- Sharing the original and unmodified compiled release is allowed only when shared for free.
+
+2) Commercial use is forbidden
+Without prior written permission from the copyright owner, you may NOT:
+- sell this software;
+- rent, license, sublicense, or monetize this software;
+- include this software in paid bundles, services, or subscriptions;
+- use this software to generate direct or indirect profit.
+
+3) Source code ownership
+- The software and source code are the exclusive property of the author.
+- You may NOT copy, publish, redistribute, modify, reverse engineer, or create derivative works from the source code without prior written permission.
+
+4) Credits and authorship
+- You may NOT remove or alter copyright notices.
+- You may NOT claim authorship of this software.
+
+5) Termination
+Any violation of this license immediately terminates your right to use this software.
+
+6) No warranty
+This software is provided "as is", without express or implied warranties.
+The author is not liable for damages, losses, account restrictions, bans, or security incidents resulting from use of this software.
+
+7) Acceptance
+By using, copying, or distributing this software, you agree to this license.
