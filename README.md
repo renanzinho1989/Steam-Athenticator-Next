@@ -4,17 +4,17 @@ Desktop app for Steam Guard codes and Steam confirmations (including trade confi
 
 ## Screenshots
 
-### Dashboard (Steam Guard code)
-![Dashboard Steam Guard](docs/images/01-dashboard-steam-guard.jpg)
+### Home (PT-BR)
+![Home PT-BR](docs/images/01-home-pt.png)
+
+### Home (EN)
+![Home EN](docs/images/02-home-en.png)
 
 ### New account flow
-![New account flow](docs/images/02-new-account-flow.jpg)
+![New account flow](docs/images/03-new-account.png)
 
 ### Confirmations (trade/market)
-![Confirmations](docs/images/03-confirmations.jpg)
-
-### Settings and vault protection
-![Settings protection](docs/images/04-settings-protection.jpg)
+![Confirmations](docs/images/04-confirmations.png)
 
 ## PT-BR
 
