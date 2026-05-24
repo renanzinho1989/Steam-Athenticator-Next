@@ -1,0 +1,86 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Steam Authenticator Next</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="dialogs\logindialog.baml" />
+    <None Remove="dialogs\settingswindow.baml" />
+    <None Remove="dialogs\textpromptdialog.baml" />
+    <None Remove="assets\home.png" />
+    <None Remove="assets\rexpeita-title-icon.png" />
+    <None Remove="dialogs\passphrasedialog.baml" />
+    <None Remove="dialogs\confirmationswindow.baml" />
+    <None Remove="assets\tick.png" />
+    <None Remove="assets\icon-profit.png" />
+    <None Remove="assets\key.png" />
+    <None Remove="assets\icon-user.png" />
+    <None Remove="dialogs\appmessagedialog.baml" />
+    <None Remove="assets\cs2-steam-bg.jpg" />
+    <None Remove="assets\lock-padlock-symbol-for-security-interface.png" />
+    <None Remove="mainwindow.baml" />
+    <None Remove="assets\icon-gift.png" />
+    <None Remove="dialogs\welcomesetupdialog.baml" />
+    <None Remove="assets\database.png" />
+    <None Remove="assets\import.png" />
+    <None Remove="assets\icon-steam.png" />
+    <None Remove="assets\add-user.png" />
+    <None Remove="splashwindow.baml" />
+    <None Remove="assets\rexpeita-skull.png" />
+    <None Remove="assets\rexpeita-avatar.png" />
+    <None Remove="assets\open-padlock.png" />
+    <None Remove="app.baml" />
+    <Resource Include="dialogs\logindialog.baml" />
+    <Resource Include="dialogs\settingswindow.baml" />
+    <Resource Include="dialogs\textpromptdialog.baml" />
+    <Resource Include="assets\home.png" />
+    <Resource Include="assets\rexpeita-title-icon.png" />
+    <Resource Include="dialogs\passphrasedialog.baml" />
+    <Resource Include="dialogs\confirmationswindow.baml" />
+    <Resource Include="assets\tick.png" />
+    <Resource Include="assets\icon-profit.png" />
+    <Resource Include="assets\key.png" />
+    <Resource Include="assets\icon-user.png" />
+    <Resource Include="dialogs\appmessagedialog.baml" />
+    <Resource Include="assets\cs2-steam-bg.jpg" />
+    <Resource Include="assets\lock-padlock-symbol-for-security-interface.png" />
+    <Resource Include="mainwindow.baml" />
+    <Resource Include="assets\icon-gift.png" />
+    <Resource Include="dialogs\welcomesetupdialog.baml" />
+    <Resource Include="assets\database.png" />
+    <Resource Include="assets\import.png" />
+    <Resource Include="assets\icon-steam.png" />
+    <Resource Include="assets\add-user.png" />
+    <Resource Include="splashwindow.baml" />
+    <Resource Include="assets\rexpeita-skull.png" />
+    <Resource Include="assets\rexpeita-avatar.png" />
+    <Resource Include="assets\open-padlock.png" />
+    <Resource Include="app.baml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="SteamAuth">
+      <HintPath>..\recovered-bundle\SteamAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="SteamKit2">
+      <HintPath>..\recovered-bundle\SteamKit2.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\recovered-bundle\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
+
